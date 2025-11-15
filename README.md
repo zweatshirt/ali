@@ -11,14 +11,16 @@ No
 
 ### how to use:
 - First add ali to your `.zshrc` file as an alias:
-`alias ali='source path/to/ali`
+    - `alias ali='source path/to/ali`
+- run source `~/.zshrc`
+(now you never have to make an alias this way again)
 
 For help:
 - `ali -h`
 
 To add an alias to your .zshrc:
-`ali --add alias command`
+- `ali --add alias command`
 - Make sure command is in a string e.g. ali --add gc "git commit -m"
 
 To remove an alias from your .zshrc:
-`ali --remove alias`
+- `ali --remove alias`
